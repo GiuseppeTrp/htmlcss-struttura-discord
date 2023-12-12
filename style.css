@@ -8,7 +8,7 @@
 
 body{
     
-    height: 1200px;
+    height: 100%;
 }
 
 .container > *{
@@ -124,4 +124,17 @@ h1{
     display: flex;
     min-width: 60%;
     border: 1px dashed black;
+}
+
+
+.big{
+    padding:20px 45px 20px 45px;
+    min-height: 600px;
+    
+}
+.green{
+    min-width: 90%;
+    min-height: 80%;
+    background-color: green;
+
 }
