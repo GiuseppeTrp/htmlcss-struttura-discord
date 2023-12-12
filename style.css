@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid black;
     
 }
 /* reset */
@@ -15,6 +16,7 @@ body{
     border: 1px solid black;
     display: flex;
     min-height: 100px;
+    
 
 
 }
@@ -37,12 +39,63 @@ body{
 
 header{
     display: flex;
+    background-color: rgb(121, 192, 192);
+    border-style: dashed ;
+    padding: 30px;
+    height: 30px;
     
 }
+
+.link{
+    display: flex;
+    width: 100%;
+    
+
+}
+
+
+
+
 
 h1{
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    border: 1px solid black;
+    
+    border: 1px dashed black;
+    background-color: orange;
+    justify-content: space-between;
+
+}
+
+
+.pink{
+   background-color: rgb(16, 31, 235);
+   min-height: 300px ;
+   justify-content: center;
+   padding: 12px 0 12px 0;
+
+
+}
+
+
+
+aside{
+    
+    background-color: rgb(226, 131, 225);
+    flex-wrap: wrap;
+    display: flex;
+    min-width: 50%;
+  
+
+
+    
+    
+    
+}
+
+
+
+
+.green{
+
 }
