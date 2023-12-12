@@ -1,14 +1,13 @@
-
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     border: 1px solid black;
-    
 }
-/* reset */
+
 
 body{
+    
     height: 1200px;
 }
 
@@ -50,52 +49,79 @@ header{
     display: flex;
     width: 100%;
     
-
+    
 }
-
-
-
-
+    
 
 h1{
     width: 100%;
     display: flex;
-    
     border: 1px dashed black;
     background-color: orange;
     justify-content: space-between;
 
 }
 
+.blue{
+    background-color: rgb(16, 31, 235);
+    min-height: 300px ;
+    justify-content: center;
+    padding: 30px 0 30px 0;
+ 
+ 
+ }
 
 .pink{
-   background-color: rgb(16, 31, 235);
-   min-height: 300px ;
-   justify-content: center;
-   padding: 12px 0 12px 0;
-
-
-}
-
-
-
-aside{
     
     background-color: rgb(226, 131, 225);
     flex-wrap: wrap;
     display: flex;
     min-width: 50%;
-  
-
-
-    
-    
     
 }
 
 
 
 
-.green{
+.section{
+    background-color: whitesmoke;
+    min-height: 300px ;
+    justify-content: center;
+    padding: 30px 100px 30px 100px;
+    
 
+}
+
+.grey{
+    background-color: rgba(150, 140, 140, 0.686);
+}
+
+.uno{
+    background-color: rgb(46, 174, 243);
+    display: flex;
+    min-width: 60%;
+    border: 1px dashed black;
+    
+}
+
+.due{
+    background-color:  rgb(226, 131, 225);
+    min-width: 40%;
+    border: 1px dashed black;
+}
+
+
+.uno-middle{
+    background-color:  rgb(226, 131, 225);
+    min-width: 40%;
+    border: 1px dashed black;
+
+}
+    
+.due-middle{
+
+    background-color: rgb(46, 174, 243);
+    display: flex;
+    min-width: 60%;
+    border: 1px dashed black;
 }
