@@ -1,0 +1,48 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* reset */
+
+body{
+    height: 1200px;
+}
+
+.container > *{
+    border: 1px solid black;
+    display: flex;
+    min-height: 100px;
+
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 1200px;
+
+    max-width: 1200px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 12px;
+    background-color:   whitesmoke;
+
+}
+
+
+header{
+    display: flex;
+    
+}
+
+h1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+}
