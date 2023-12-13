@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+   
 }
 
 
@@ -12,9 +12,10 @@ body{
 }
 
 .container > *{
-    border: 1px solid black;
+    
     display: flex;
     min-height: 100px;
+    
     
 
 
@@ -22,7 +23,7 @@ body{
 .container {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    
     min-height: 1200px;
 
     max-width: 1200px;
@@ -31,7 +32,8 @@ body{
     margin-right: auto;
 
     padding: 12px;
-    background-color:   whitesmoke;
+    background-color:   rgb(32, 27, 27);
+    
 
 }
 
@@ -39,7 +41,7 @@ body{
 header{
     display: flex;
     background-color: rgb(121, 192, 192);
-    border-style: dashed ;
+   
     padding: 30px;
     height: 30px;
     
@@ -58,7 +60,7 @@ h1{
     display: flex;
     border: 1px dashed black;
     background-color: orange;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
@@ -67,6 +69,7 @@ h1{
     min-height: 300px ;
     justify-content: center;
     padding: 30px 0 30px 0;
+    border-bottom: 1px solid rgb(130, 169, 242);
  
  
  }
@@ -105,14 +108,14 @@ h1{
 }
 
 .due{
-    background-color:  rgb(226, 131, 225);
+    background-color:  rgb(236, 166, 235);
     min-width: 40%;
     border: 1px dashed black;
 }
 
 
 .uno-middle{
-    background-color:  rgb(226, 131, 225);
+    background-color:  rgb(236, 166, 235);
     min-width: 40%;
     border: 1px dashed black;
 
@@ -136,5 +139,59 @@ h1{
     min-width: 90%;
     min-height: 80%;
     background-color: green;
+    border: 1px dashed black;
 
+}
+
+.little{
+    display: flex;
+    background-color: rgb(16, 31, 235);
+    min-height: 300px ;
+    min-width:100px;
+    justify-content: center;
+    border: 1px dashed white;
+}
+
+.black{
+    background-color: rgba(0, 0, 0, 0.648);
+    padding: 10px 0;
+    
+    
+
+}
+
+.little:first-child{
+    background-color: pink;
+    padding: 100px;
+    border: 1px dashed black;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top:10px ;
+}
+
+.tools{
+    width: 56%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px dashed black;
+    background-color: rgb(72, 206, 224);
+    align-items: center;
+    
+}
+
+
+button{  min-width: 100px;
+    border: 1px dashed black;
+    background-color: pink;
+}
+
+
+
+.border{
+
+    border: 1px dashed black;
 }
